@@ -1,0 +1,106 @@
+body .first {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 3fr 3fr 3fr 3fr 3fr;
+      grid-template-rows: 1fr 3fr 3fr 3fr 3fr 3fr;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  gap: 1em;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  background: #201f1f;
+  -webkit-perspective: 900px;
+          perspective: 900px;
+  width: 100%;
+}
+
+body .first .header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+}
+
+body .first .header nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  font-weight: 1000;
+  background: transparent;
+}
+
+body .first .header nav .logoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / span 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: .5em;
+}
+
+body .first .header nav .logoContainer .logo {
+  background-image: url(./gradient.jpeg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .first .header nav .ulContainer {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / span 1;
+  height: 100%;
+  max-height: 100%;
+}
+
+body .first .header nav .ulContainer #navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+}
+
+body .first .header nav .ulContainer #navigation #link {
+  margin-top: .5em;
+  background-image: url(./gradient.jpeg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+body .first .wrapper {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 4;
+  grid-column: 4 / span 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+}
+/*# sourceMappingURL=style.css.map */

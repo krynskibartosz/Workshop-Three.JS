@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Importation d'un modèle 3D</title>
+    <style>
+        /* Canvas background */
+        #import {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            display: block;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="import"></canvas>
+
+    <script src="three.min.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="GLTFLoader.js"></script>
+    <script src="import.js"></script>
+</body>
+</html>
