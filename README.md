@@ -1,5 +1,8 @@
 # Workshop-Three.js
 
+## Lien du site :
+## https://bartoszkrynski.000webhostapp.com/
+
 Bienvenue dans notre workshop sur Three.js on essayera de vous apprendre a :
 
 + Créer une geometrie dans le navigateur et pouvoir l'animer.
@@ -376,6 +379,7 @@ animate();
 ```
 
 Exercice sur hover-effect animation:
+Dans le fichier "distortion.html"
 ```
 <!DOCTYPE html>
 <html lang="en">
