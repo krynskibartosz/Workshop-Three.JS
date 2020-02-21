@@ -3,6 +3,13 @@
 ## Lien du site :
 ## https://bartoszkrynski.000webhostapp.com/
 
+Les technologies utilisée sont:
+ - HTML5
+ - CSS 3D
+ - SASS
+ - Vanilla JavaScript
+ - THREE.JS
+
 Bienvenue dans notre workshop sur Three.js présenter par Issam Boumarouanne et Krynski Bartosz. On essayera de vous apprendre a :
 
 + Créer une geometrie dans le navigateur et pouvoir l'animer.
