@@ -10,6 +10,9 @@ Les technologies utilisée sont:
  - Vanilla JavaScript
  - THREE.JS
 
+Une amélioration du site aura lieu(responsivité, internavigation, more Animation, etc..)
+Vous pourrez suivre l'évolution du site sur ce GitHub
+
 Bienvenue dans notre workshop sur Three.js présenter par Issam Boumarouanne et Krynski Bartosz. On essayera de vous apprendre a :
 
 + Créer une geometrie dans le navigateur et pouvoir l'animer.
