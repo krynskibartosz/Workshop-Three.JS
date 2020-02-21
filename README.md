@@ -3,7 +3,7 @@
 ## Lien du site :
 ## https://bartoszkrynski.000webhostapp.com/
 
-Bienvenue dans notre workshop sur Three.js on essayera de vous apprendre a :
+Bienvenue dans notre workshop sur Three.js présenter par Issam Boumarouanne et Krynski Bartosz. On essayera de vous apprendre a :
 
 + Créer une geometrie dans le navigateur et pouvoir l'animer.
 
@@ -39,10 +39,10 @@ C'est un langage de très bas niveau, il est très puissant mais mega compliquer
 Webgl ne fonctionne que grace à deux choses:
 l'espace de projection (l'endroit ou la camera regarde)
 les couleurs
-Et c avec ses 2données là qu'on fait tout en webGL
+Et c'est avec ses 2 données là qu'on fait tout en webGL
 
 Et pour ses 2 on utilise les shaders.
-C quoi les shaders? bah c un truc bcp trop complexe donc j'aurai du mal à vous expliquer précisement ce que c'est mais en gros
+C'est quoi les shaders? bah c un truc bcp trop complexe donc j'aurai du mal à vous expliquer précisement ce que c'est mais en gros
 sa pixelise tout ce que voit la caméra et sa qui nous permet de faire de la 3D.
 D'ailleurs c tellement complexe qu'il utilise un logiciel pour la simplicté
 
@@ -57,6 +57,27 @@ Vous devez connaître les mathématiques matricielles, les coordonnées normalis
 C'est pour sa qu'on utilise des bibliothèque 3D, car pour faire de la 3d dans le web bah tout les calculs complexe devrait etre effectuer pour nous, dans la mesure ou l'on devrait ne "devoir" passer que des paramètres pour gerer la matière, lumière, etc.. et que la bibliothèque s'occupe de dessiner le reste pour nous. P/ainsi pouvoir réellement se focaliser sur la 3d dans le web si non ça prendrait trop de temps
 
 Biensur WebGL possède des fonctionnalitésqui vous aident à implémenter la 3D. Mais WebGl n'est qu'une bibliothèque de mathématique, Vous devez lui fournir des coordonnées qui représentent ce que vous voulez dessiner.
+
+WebGl est une API JavaScript intégrée dans le navigateur web qui exploite la puissance de GPUSs 
+
+Utiliser pour faire 
+	de la visualisation de données,
+	jeux,
+	animation
+	et meme du machine learning
+
+	Un gros effort pour qu’ils soient accessible sur tout les navigateurs
+	C'est juste une amélioration de webgl
+
+Les avantages de webgpu comparer a webgl
+
+Meilleure perfomance du cpu
+
+Accès fonctionnel au calcul GPU
+
+Mappe mieux au matériel
+
+Très bon avec les process en paralax
 
 
 Installation
